@@ -15,8 +15,8 @@ Custom modules have been created for this development
 - Create a ```secrets.tfvars``` and specify the password in the file as ```database_password = <your password>```
 
 ### Run the code
-```terraform init```
-```terraform plan -var-file="secret.tfvars"```
-```terraform apply -var-file="secret.tfvars"```
+```terraform init```<br>
+```terraform plan -var-file="secret.tfvars"```<br>
+```terraform apply -var-file="secret.tfvars"```<br>
 
 - You will get an output at the end of the code run "ELB_DNS". Use that as URL on your browser
